@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeadshotImage, HeroH1, HeroSubtitle, HeroBtnWrapper, AboutPdfStyle, TypeWriter} from './HeroElements';
 import HeadShot from '../../images/headshot.jpg';
-import Resume from '../../resources/Resume_Mahimul_Hoque.pdf';
+
 //"learning.", "tech.", "trying new food.", "being active."
 const HeroSection = () => {
     return (

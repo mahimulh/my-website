@@ -12,17 +12,20 @@ const Projects = () => {
                 <ServicesCard>
                     <ServicesIcon src = {Icon1}/>
                     <ServicesH2>Project 1</ServicesH2>
-                    <ServicesP>Nothing yet! Come back for updates later.</ServicesP>
+                    <ServicesP>Haven't updated this page yet. Check out my GitHub for projects I worked on and am working on.</ServicesP>
+                    <a href = "https://github.com/mahimulh">Click Here</a>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src = {Icon2}/>
                     <ServicesH2>Project 2</ServicesH2>
-                    <ServicesP>Nothing yet! Come back for updates later.</ServicesP>
+                    <ServicesP>Haven't updated this page yet. Check out my GitHub for projects I worked on and am working on.</ServicesP>
+                    <a href = "https://github.com/mahimulh">Click Here</a>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src = {Icon3}/>
                     <ServicesH2>Project 3</ServicesH2>
-                    <ServicesP>Nothing yet! Come back for updates later.</ServicesP>
+                    <ServicesP>Haven't updated this page yet. Check out my GitHub for projects I worked on and am working on.</ServicesP>
+                    <a href = "https://github.com/mahimulh">Click Here</a>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

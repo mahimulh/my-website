@@ -1,6 +1,6 @@
 import React from 'react'
 import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from './SidebarElements';
-import Resume from '../../resources/Resume_Mahimul_Hoque.pdf';
+import Resume from '../../resources/Mahimul-Hoque-Resume.pdf';
 
 const Sidebar = ({isOpen, toggle}) => {
     return (

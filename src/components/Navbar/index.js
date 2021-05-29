@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
 import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll} from 'react-scroll';
-import Resume from '../../resources/Resume_Mahimul_Hoque.pdf';
+import Resume from '../../resources/Mahimul-Hoque-Resume.pdf';
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)

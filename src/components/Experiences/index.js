@@ -1,6 +1,7 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import MAXLogo from '../../images/max_icon.jpg';
 import AMDLogo from '../../images/amd_icon.png';
 import McMasterLogo from '../../images/mcmaster_icon.png';
 import MacBridgeLogo from '../../images/macbridge_icon.png';
@@ -43,16 +44,25 @@ const Experiences = () => {
             <br />
             <ExperiencesSubtitle>Work Experience</ExperiencesSubtitle>
             <VerticalTimeline>
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="April 2021 - Present"
+                    iconStyle={{ background: 'white', color: '#fff' }}
+                    icon={<ExperiencesTimelineLogo src = {MAXLogo} alt = "MAX" />}
+                >
+                    <h3 className="vertical-timeline-element-title">Software Developer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">MAX Gala | Remote, Canada</h4>
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     //contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="May 2020 - present"
+                    date="May 2020 - April 2021"
                     iconStyle={{ background: 'black', color: '#fff' }}
                     icon={<ExperiencesTimelineLogo src = {AMDLogo} alt = "AMD" />}
                 >
-                    <h3 className="vertical-timeline-element-title">Display Engineer Intern</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Advanced Micro Devices (AMD) | Markham, ON</h4>
+                    <h3 className="vertical-timeline-element-title">Display Software Engineer, Intern</h3>
+                    <h4 className="vertical-timeline-element-subtitle">AMD | Markham, ON</h4>
                     {/* <p>
                     •	Created a program for AMD customers to convert display connector data into 
                     binary files to flash ROMs using Node.js environment and Electron framework, which eliminated human error and increased procedure time by 5 times
@@ -109,7 +119,7 @@ const Experiences = () => {
                     iconStyle={{ background: 'white', color: '#fff' }}
                     icon={<ExperiencesTimelineLogo src = {MacBridgeLogo} alt = "MacBridge" />}
                 >
-                    <h3 className="vertical-timeline-element-title">Tutor (Part Time)</h3>
+                    <h3 className="vertical-timeline-element-title">Tutor (On Call)</h3>
                     <h4 className="vertical-timeline-element-subtitle">MacBridge Academy | Hamilton, ON</h4>
                     <p>
                     •	Aided students in identifying areas of weakness to assist with the completion of 
