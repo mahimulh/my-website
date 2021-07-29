@@ -9,6 +9,7 @@ import WSSLogo from '../../images/wss_icon.png';
 import RHKSSLogo from '../../images/rhkss_icon.jpg';
 import MMLogo from '../../images/MasterMind_icon.jpg';
 import FESLogo from '../../images/Franklin_icon.png';
+import REACHLogo from '../../images/reach_icon.png';
 
 import {
     ExperiencesContainer,
@@ -44,13 +45,24 @@ const Experiences = () => {
             <br />
             <ExperiencesSubtitle>Work Experience</ExperiencesSubtitle>
             <VerticalTimeline>
-            <VerticalTimelineElement
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    //contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    date="June 2021 - Present"
+                    iconStyle={{ background: 'white', color: '#fff' }}
+                    icon={<ExperiencesTimelineLogo src = {REACHLogo} alt = "REACH" />}
+                >
+                    <h3 className="vertical-timeline-element-title">Fullstack Developer, Intern</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Reach | Remote, Canada</h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="April 2021 - Present"
                     iconStyle={{ background: 'white', color: '#fff' }}
                     icon={<ExperiencesTimelineLogo src = {MAXLogo} alt = "MAX" />}
                 >
-                    <h3 className="vertical-timeline-element-title">Software Developer</h3>
+                    <h3 className="vertical-timeline-element-title">Software Developer, Volunteer</h3>
                     <h4 className="vertical-timeline-element-subtitle">MAX Gala | Remote, Canada</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -63,30 +75,6 @@ const Experiences = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Display Software Engineer, Intern</h3>
                     <h4 className="vertical-timeline-element-subtitle">AMD | Markham, ON</h4>
-                    {/* <p>
-                    •	Created a program for AMD customers to convert display connector data into 
-                    binary files to flash ROMs using Node.js environment and Electron framework, which eliminated human error and increased procedure time by 5 times
-                    </p>
-                    <p>
-                    •	Followed standard software development life cycle to ensure working and 
-                    supported product
-                    </p>
-                    <p>
-                    •	Utilized Jira to lead development of utility for display connectors and 
-                    wrote debug plan to test program
-                    </p>
-                    <p>
-                    •	Coded a script that identifies critical color mismatch spots in images 
-                    and videos after going through different compression and decompression algorithms for various display standards using MATLAB
-                    </p>
-                    <p>
-                    •	Reviewed client schematics and layouts to ensure AMD requirements were 
-                    met before production
-                    </p>
-                    <p>
-                    •	Created detailed technical guide for engineers to follow for production 
-                    of display identification board
-                    </p> */}
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -146,9 +134,9 @@ const Experiences = () => {
                         className="vertical-timeline-element--work"
                         //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         //contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="September 2017 - April 2022 [Expected]"
+                        date="September 2017 - December 2022 [Expected]"
                         iconStyle={{ background: 'white', color: '#fff' }}
-                        icon={<ExperiencesTimelineLogo src = {McMasterLogo} alt = "AMD" />}
+                        icon={<ExperiencesTimelineLogo src = {McMasterLogo} alt = "McMaster" />}
                     >
                         <h3 className="vertical-timeline-element-title">Bachelor of Computer Engineering</h3>
                         <h4 className="vertical-timeline-element-subtitle">McMaster University | Hamilton, ON, Canada</h4>
